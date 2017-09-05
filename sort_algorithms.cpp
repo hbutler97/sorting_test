@@ -1,0 +1,45 @@
+#include "sort_algorithms.h"
+//START_FUNCTION_HEADER//////////////////////////////////////////////////////
+BUBBLE_SORT::BUBBLE_SORT
+(
+ std::string name
+):
+//
+// Description: Constructor.  
+//
+// Returns:  None
+//
+//END_FUNCTION_HEADER////////////////////////////////////////////////////////
+m_name(name)
+{
+};
+
+//START_FUNCTION_HEADER//////////////////////////////////////////////////////
+std::vector<int> BUBBLE_SORT::sort(void)
+
+//
+// Description: Constructor.  
+//
+// Returns:  None
+//
+//END_FUNCTION_HEADER////////////////////////////////////////////////////////
+{
+  std::vector<int> test;
+  std::cout << "bubble_sort" << std::endl;
+  return test;
+};
+
+
+
+//START_FUNCTION_HEADER//////////////////////////////////////////////////////
+BUBBLE_SORT::~BUBBLE_SORT(void)
+//
+// Description: Constructor.  
+//
+// Returns:  None
+//
+//END_FUNCTION_HEADER////////////////////////////////////////////////////////
+
+{
+
+};
