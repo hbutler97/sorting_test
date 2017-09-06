@@ -45,7 +45,8 @@ private:
     void init_list(void)
     {
       m_sort_list.push_back(new BUBBLE_SORT("bubble"));
-
+      m_sort_list.push_back(new BUBBLE_SORT2("bubble2"));
+      m_sort_list.push_back(new BUBBLE_SORT3("bubble3"));
     };
 
 };

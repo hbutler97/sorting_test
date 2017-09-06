@@ -1,4 +1,4 @@
-
+#include <random>
 #include <string>
 #include <vector>
 #include <iostream>
@@ -27,3 +27,5 @@
 static const char* VERSION = "0.1 Alpha\n";
 static const char  DELIMITER = ' ';
 static const char* USAGE = "Example Usage: \n";
+
+std::vector<int> generate_data(unsigned int size, bool random=false);

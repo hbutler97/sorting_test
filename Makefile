@@ -1,7 +1,7 @@
 CC := $(CROSS_COMPILE)g++
 
 #CFLAGS := -Itclap -Ofast  -std=c++11  -W -Wall -Werror -Wwrite-strings -pedantic
-CFLAGS := -Itclap -Ofast  -std=c++11  
+CFLAGS := -Itclap -Og -g -std=c++11  
 
 LDFLAGS=
 
